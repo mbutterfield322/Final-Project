@@ -30,6 +30,6 @@ export async function getPosts() {
     });
   
     if (!response.ok) {
-      throw { message: 'Could not save post.', status: 500 };
+   
     }
-}
+  }

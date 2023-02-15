@@ -34,3 +34,7 @@ function BlogPostsPage() {
 }
 
 export default BlogPostsPage;
+
+export function loader() {
+  return getPosts();
+}
